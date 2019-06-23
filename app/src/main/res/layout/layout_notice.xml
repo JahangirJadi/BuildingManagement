@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:padding="@dimen/_12sdp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_notice_sub"
+        android:hint="Notice Subject"
+        android:background="@drawable/et_bg"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_16sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_notice_desc"
+        android:inputType="text"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:hint="Notice Description"
+        android:minHeight="@dimen/_120sdp"
+        android:gravity="start"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_16sdp"/>
+
+
+    <Spinner
+        android:layout_margin="@dimen/_8sdp"
+        android:id="@+id/spinner_month_notice"
+        android:padding="@dimen/_16sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_add_notice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add"
+            android:textStyle="bold"
+            android:background="@color/btn_color"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sdp"/>
+
+
+
+        <Button
+            android:id="@+id/btn_cancel_notice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@color/btn_color"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:text="Cancel"
+            android:textSize="@dimen/_16sdp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

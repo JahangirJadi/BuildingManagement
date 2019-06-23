@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_margin="@dimen/_8sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_complain_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complain Subject"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_20sdp"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_12sdp"
+            android:id="@+id/tv_complain_desc"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complain Description"
+
+            android:layout_below="@+id/tv_complain_sub"
+
+            android:textSize="@dimen/_14sdp"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_12sdp"
+            android:id="@+id/tv_complain"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complain From,"
+
+            android:layout_below="@+id/tv_complain_desc"
+android:layout_alignParentRight="true"
+            android:textSize="@dimen/_12sdp"
+            />
+
+
+        <TextView
+
+            android:id="@+id/tv_complain_from"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC xyz"
+android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_complain"
+
+            android:textSize="@dimen/_12sdp"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

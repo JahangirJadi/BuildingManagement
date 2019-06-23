@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_bg"
+    tools:context=".Activities.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_name"
+                android:inputType="text"
+                android:hint="Name"
+                android:background="@drawable/text_field_bg"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_phone_no"
+                android:hint="Phone No"
+
+                android:inputType="number"
+                android:background="@drawable/text_field_bg"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_flat_no"
+                android:hint="Flat no"
+                android:inputType="number"
+                android:background="@drawable/text_field_bg"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_pass"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/text_field_bg"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_confirm_pass"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:background="@drawable/text_field_bg"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+
+                android:padding="@dimen/_8sdp"
+                android:textSize="@dimen/_16sdp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register_user"
+            android:textColor="@android:color/white"
+            android:text="Register"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:textSize="@dimen/_16sdp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

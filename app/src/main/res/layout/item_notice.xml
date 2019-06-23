@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/tv_notice_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="notice Subject"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_notice_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_notice_sub"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="notice Description"
+
+            android:textColor="@android:color/black"
+
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_notice_desc"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_12sdp"
+
+            android:text="Notice From,"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <TextView
+
+            android:id="@+id/tv_notice_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_notice"
+            android:layout_alignParentRight="true"
+            android:text="ABC xyz"
+            android:textColor="@android:color/black"
+
+            android:textSize="@dimen/_12sdp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

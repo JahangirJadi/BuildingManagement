@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_8sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    android:elevation="@dimen/_4sdp"
+    android:id="@+id/card_maintenance"
+    app:cardBackgroundColor="@android:color/holo_red_light"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maintenance_user_name"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/_40sdp"
+
+            android:text="Name"
+            android:textSize="@dimen/_16sdp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maintenance_user_flat_no"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/_40sdp"
+            android:text="Flat No"
+            android:layout_below="@+id/tv_maintenance_user_name"
+            android:textSize="@dimen/_16sdp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maintenance_username"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true"
+            android:text="Name"
+            android:textSize="@dimen/_16sdp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_maintenance_user_flatno"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/white"
+            android:text="Flat No"
+            android:layout_below="@+id/tv_maintenance_user_name"
+            android:textSize="@dimen/_16sdp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

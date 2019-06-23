@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".Activities.DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:id="@+id/card_maintenance_collection_admin"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp"
+            android:elevation="@dimen/_4sdp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/maintenanceCollectionColor"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_collection"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:src="@drawable/baseline_monetization_on_white_48dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Show Maintenance Collection"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/iv_collection"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:textSize="@dimen/_16sdp"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:id="@+id/card_monthly_expenses_admin"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp"
+            android:elevation="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/MonthlyExpenseColor"
+            app:cardCornerRadius="@dimen/_4sdp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:src="@drawable/baseline_show_chart_white_48dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Add Monthly Expenses"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/iv_expenses"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:textSize="@dimen/_16sdp"/>
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:id="@+id/card_write_notice_admin"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp"
+            android:elevation="@dimen/_4sdp"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/noticeColor"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:src="@drawable/notice"
+                    android:tint="@android:color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Add Notice"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/iv_notice"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:textSize="@dimen/_16sdp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:id="@+id/card_view_complain_admin"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp"
+            android:elevation="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/complainColor"
+            app:cardCornerRadius="@dimen/_4sdp"
+            android:layout_weight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_write_complain"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:src="@drawable/complain"
+                    android:tint="@android:color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="View Complains"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/iv_write_complain"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:textSize="@dimen/_16sdp"/>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
